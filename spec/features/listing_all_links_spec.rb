@@ -1,4 +1,5 @@
 require 'spec_helper'
+require './app/models/link'
 
 feature 'User browses the list of links' do
 
