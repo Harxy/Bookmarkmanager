@@ -1,14 +1,13 @@
 require 'data_mapper'
 require 'dm-postgres-adapter'
 
-class Link 
+class Link
 
   include DataMapper::Resource
 
-  property :id, Serial 
-  property :title, String 
-  property :url, String 
+  property :id, Serial
+  property :title, String
+  property :url, String
 
   DataMapper.finalize
-end 
-
+end
